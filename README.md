@@ -1,34 +1,32 @@
 <div align="center">
 
-<img src="assets/profile-header.svg" alt="VC-Meett developer profile header" width="100%">
+<img src="assets/intro.svg" alt="VC-Meett — Beyond the Commit" width="100%">
 
-### `VC-Meett@github:~$`
-
-**Backend Developer · Builder · Curious by Default**
-
-Building useful things, automating the boring parts, and turning experiments into tools.
-
-[![GitHub](https://img.shields.io/badge/GitHub-VC--Meett-151515?style=for-the-badge&logo=github)](https://github.com/VC-Meett)
+[PROFILE](https://github.com/VC-Meett) · [PROJECTS](#mission-control) · [GALAXY](#contribution-galaxy)
 
 </div>
 
----
+## VC OS // DEVELOPER WORKSPACE
 
-### `cat about.txt`
+<img src="assets/vc-os.svg" alt="VC OS simulated developer desktop" width="100%">
 
-- Backend-focused developer working with **PHP, Laravel, and Python**.
-- Interested in developer tooling, API automation, AI-assisted workflows, and practical systems engineering.
-- Current motto: **Less talk. More build.**
+A personal workspace for building useful tools, automating the boring parts, and learning by shipping.
 
-### `ls ./workbench`
+## MISSION CONTROL
 
-| Project | What it does |
-|---|---|
-| **CCCM** | Context and session management tooling for coding-agent workflows. |
-| **UATG** | Deterministic API test generation for Laravel applications. |
-| **QuantPulse OS** | A personal trading intelligence and quantitative workspace concept. |
+| Mission | Objective | Explore |
+|---|---|---|
+| **CCCM** | Context and session tooling for coding-agent workflows. | [Repositories](https://github.com/VC-Meett?tab=repositories) |
+| **UATG** | Deterministic API test generation for Laravel applications. | [Repositories](https://github.com/VC-Meett?tab=repositories) |
+| **QuantPulse OS** | A personal trading-intelligence workspace concept. | [Repositories](https://github.com/VC-Meett?tab=repositories) |
 
-### `stack --list`
+## CONTRIBUTION GALAXY
+
+<img src="assets/contribution-galaxy.svg" alt="Cosmic contribution galaxy concept" width="100%">
+
+The galaxy is currently a visual concept, not a live data visualization. It can later be connected to actual contribution counts and regenerated automatically.
+
+## TECH STACK // LOADED
 
 <div align="center">
 
@@ -44,27 +42,19 @@ Building useful things, automating the boring parts, and turning experiments int
 
 </div>
 
----
-
-### `git status`
+## SYSTEM TELEMETRY
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=VC-Meett&show_icons=true&hide_border=true&bg_color=0d1117&title_color=8bd5ff&text_color=c9d1d9&icon_color=bc9cff&rank_icon=github" alt="GitHub statistics" height="165">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VC-Meett&layout=compact&hide_border=true&bg_color=0d1117&title_color=8bd5ff&text_color=c9d1d9" alt="Most used languages" height="165">
-
-<br>
-
-<img src="https://streak-stats.demolab.com?user=VC-Meett&hide_border=true&background=0D1117&ring=8BD5FF&fire=BC9CFF&currStreakLabel=8BD5FF&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=7D8590" alt="GitHub streak statistics" width="70%">
+<img src="https://github-readme-stats.vercel.app/api?username=VC-Meett&show_icons=true&hide_border=true&bg_color=070812&title_color=8df4ff&text_color=d9d9ed&icon_color=c2a1ff" alt="GitHub stats">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VC-Meett&layout=compact&hide_border=true&bg_color=070812&title_color=8df4ff&text_color=d9d9ed" alt="Most used languages">
 
 </div>
 
----
-
 <div align="center">
 
-`while (alive) { learn(); build(); repeat(); }`
+while (alive) { learn(); build(); repeat(); }
 
-**LESS TALK. MORE BUILD.**
+**SYSTEM ONLINE. NEXT MISSION LOADING...**
 
 </div>
