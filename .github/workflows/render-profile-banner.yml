@@ -1,0 +1,37 @@
+name: Render profile banner
+
+on:
+  push:
+    paths:
+      - "assets/intro.svg"
+      - "assets/profile.png"
+      - "scripts/render_profile_banner.py"
+      - ".github/workflows/render-profile-banner.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render-banner:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+      - name: Set up image rendering dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install Pillow CairoSVG
+      - name: Render card with portrait baked in
+        run: python scripts/render_profile_banner.py
+      - name: Commit the rendered PNG
+        run: |
+          git add assets/profile-banner.png
+          if git diff --cached --quiet; then
+            echo "Profile banner is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: render profile card PNG"
+          git push
