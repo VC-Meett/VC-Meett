@@ -12,25 +12,54 @@ on:
 permissions:
   contents: write
 
+# Prevent this workflow's own runs from racing each other on the same branch.
+concurrency:
+  group: contribution-galaxy-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   update-galaxy:
     runs-on: ubuntu-latest
     steps:
       - name: Check out profile repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Generate galaxy and telemetry from actual GitHub data
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: VC-Meett
         run: python3 scripts/generate_galaxy.py
       - name: Commit refreshed visuals
+        shell: bash
         run: |
+          set -euo pipefail
+
           if git diff --quiet -- assets/contribution-galaxy.svg assets/github-telemetry.svg; then
             echo "GitHub visuals are already up to date."
             exit 0
           fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/contribution-galaxy.svg assets/github-telemetry.svg
           git commit -m "chore: refresh live GitHub visuals"
-          git push
+
+          # A different commit may reach main while generation is running.
+          # Rebase the generated asset commit on the latest remote and retry
+          # the push; the generator only stages its two output files.
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "Pushed refreshed GitHub visuals."
+              exit 0
+            fi
+
+            if [ "$attempt" -eq 3 ]; then
+              echo "Push failed after 3 attempts." >&2
+              exit 1
+            fi
+
+            echo "Push race detected; rebasing onto latest ${GITHUB_REF_NAME} (attempt $attempt/3)."
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}"
+          done
