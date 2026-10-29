@@ -1,5 +1,9 @@
 <div align="center">
 
+<a href="https://github.com/VC-Meett"><img src="https://github.com/VC-Meett.png?size=320" width="180" height="180" alt="Meet Malvaniya — GitHub profile picture"></a>
+
+<br>
+
 <img src="assets/intro.svg" width="100%" alt="VC-Meett developer profile">
 
 <br>
