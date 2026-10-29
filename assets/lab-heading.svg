@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" role="img" aria-labelledby="title">
+<title id="title">Currently in the lab</title>
+<defs><linearGradient id="outer" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#39d7d0"/><stop offset=".52" stop-color="#8dcde9"/><stop offset="1" stop-color="#d7a7df"/></linearGradient></defs>
+<rect width="1200" height="100" rx="18" fill="#17191d" stroke="#343941"/>
+<rect x="0" y="0" width="6" height="100" rx="3" fill="url(#outer)"/>
+<text x="34" y="41" fill="#f4f6f8" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700">CURRENTLY IN THE LAB</text>
+<text x="36" y="69" fill="#9ba3af" font-family="monospace" font-size="12" letter-spacing="2">EXPERIMENTS IN PROGRESS // IDEAS INTO TOOLS</text>
+<text x="1163" y="51" text-anchor="end" fill="#9eddf1" font-family="monospace" font-size="12">3 ACTIVE CONCEPTS</text>
+<path d="M840 72h320" stroke="url(#outer)" stroke-width="2" stroke-linecap="round"/>
+</svg>
