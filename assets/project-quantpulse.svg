@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="240" viewBox="0 0 380 240" role="img" aria-labelledby="title desc">
+<title id="title">QuantPulse OS — Project card</title><desc id="desc">QUANT WORKSPACE. Bring market research and analytics into one personal workflow.</desc>
+<defs><linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c4afe9"/><stop offset="1" stop-color="#89c9e9"/></linearGradient></defs>
+<rect x="1" y="1" width="378" height="238" rx="17" fill="#17191d" stroke="#38404a"/>
+<path d="M18 1h344" stroke="url(#rim)" stroke-width="3" stroke-linecap="round"/>
+<rect x="22" y="23" width="48" height="48" rx="13" fill="#232932" stroke="url(#rim)"/>
+<text x="46" y="54" text-anchor="middle" fill="#c4afe9" font-family="monospace" font-size="24" font-weight="700">Q</text>
+<text x="84" y="39" fill="#8d96a3" font-family="monospace" font-size="10" letter-spacing="1.5">PROJECT 03</text>
+<text x="84" y="61" fill="#f2f4f7" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700">QuantPulse OS</text>
+<text x="22" y="100" fill="#c4afe9" font-family="monospace" font-size="11">QUANT WORKSPACE</text>
+<text x="22" y="127" fill="#c3c9d2" font-family="Arial,Helvetica,sans-serif" font-size="13">Bring market research and analytics</text>
+<text x="22" y="147" fill="#c3c9d2" font-family="Arial,Helvetica,sans-serif" font-size="13">into one personal workflow.</text>
+<rect x="24" y="190" width="77" height="25" rx="7" fill="#202630" stroke="#3a4652"/><text x="62.5" y="206" text-anchor="middle" fill="#cbd4dd" font-family="monospace" font-size="10">ANALYTICS</text><rect x="109" y="190" width="63" height="25" rx="7" fill="#202630" stroke="#3a4652"/><text x="140.5" y="206" text-anchor="middle" fill="#cbd4dd" font-family="monospace" font-size="10">MARKETS</text><rect x="180" y="190" width="70" height="25" rx="7" fill="#202630" stroke="#3a4652"/><text x="215" y="206" text-anchor="middle" fill="#cbd4dd" font-family="monospace" font-size="10">RESEARCH</text>
+<path d="M22 224h336" stroke="#303740"/>
+<text x="22" y="233" fill="#707986" font-family="monospace" font-size="9">OPEN PROJECT INDEX</text>
+<path d="M341 225l8 0m-4 -4l4 4l-4 4" fill="none" stroke="#89c9e9" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
