@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="240" viewBox="0 0 380 240" role="img" aria-labelledby="title desc">
+<title id="title">UATG — Project card</title><desc id="desc">API QUALITY ENGINE. Generate deterministic tests from OpenAPI specs for Laravel APIs.</desc>
+<defs><linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a9b5ff"/><stop offset="1" stop-color="#81d6df"/></linearGradient></defs>
+<rect x="1" y="1" width="378" height="238" rx="17" fill="#17191d" stroke="#38404a"/>
+<path d="M18 1h344" stroke="url(#rim)" stroke-width="3" stroke-linecap="round"/>
+<rect x="22" y="23" width="48" height="48" rx="13" fill="#232932" stroke="url(#rim)"/>
+<text x="46" y="54" text-anchor="middle" fill="#a9b5ff" font-family="monospace" font-size="24" font-weight="700">U</text>
+<text x="84" y="39" fill="#8d96a3" font-family="monospace" font-size="10" letter-spacing="1.5">PROJECT 02</text>
+<text x="84" y="61" fill="#f2f4f7" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700">UATG</text>
+<text x="22" y="100" fill="#a9b5ff" font-family="monospace" font-size="11">API QUALITY ENGINE</text>
+<text x="22" y="127" fill="#c3c9d2" font-family="Arial,Helvetica,sans-serif" font-size="13">Generate deterministic tests from</text>
+<text x="22" y="147" fill="#c3c9d2" font-family="Arial,Helvetica,sans-serif" font-size="13">OpenAPI specs for Laravel APIs.</text>
+<rect x="24" y="190" width="84" height="25" rx="7" fill="#202630" stroke="#3a4652"/><text x="66" y="206" text-anchor="middle" fill="#cbd4dd" font-family="monospace" font-size="10">TYPESCRIPT</text><rect x="116" y="190" width="63" height="25" rx="7" fill="#202630" stroke="#3a4652"/><text x="147.5" y="206" text-anchor="middle" fill="#cbd4dd" font-family="monospace" font-size="10">OPENAPI</text><rect x="187" y="190" width="63" height="25" rx="7" fill="#202630" stroke="#3a4652"/><text x="218.5" y="206" text-anchor="middle" fill="#cbd4dd" font-family="monospace" font-size="10">LARAVEL</text>
+<path d="M22 224h336" stroke="#303740"/>
+<text x="22" y="233" fill="#707986" font-family="monospace" font-size="9">OPEN PROJECT INDEX</text>
+<path d="M341 225l8 0m-4 -4l4 4l-4 4" fill="none" stroke="#81d6df" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
