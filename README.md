@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/intro.svg" width="100%" alt="VC-Meett developer profile">
+<img src="assets/profile-banner.png" width="100%" alt="VC-Meett developer profile">
 
 <br>
 
