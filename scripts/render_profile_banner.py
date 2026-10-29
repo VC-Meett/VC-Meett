@@ -23,7 +23,7 @@ def main() -> None:
     # Render the vector card without its SVG image element, then composite the
     # portrait into that reserved circular frame using Pillow.
     svg = SVG_PATH.read_text(encoding="utf-8")
-    svg, count = re.subn(r'<image\\b[^>]*/>', '', svg, count=1)
+    svg, count = re.subn(r'<image\b[^>]*/>', '', svg, count=1)
     if count != 1:
         raise RuntimeError("Could not find the portrait <image> element in assets/intro.svg")
 
